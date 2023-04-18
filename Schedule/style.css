@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+
+table{
+    width: 60%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+#row-1{
+    background-color: rgb(163, 160, 160);
+}
+
+td{
+    border-bottom: 1px solid rgb(27, 92, 189);
+}

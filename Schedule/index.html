@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet"href="style.css">
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="topic.js"></script>
+        <script src="main.js"></script>
+
+        <h1>社團課程時間表</h1>
+
+        <div>
+            <!-- 設定日期 -->
+            <input name="userStartDate" type="date">
+            <input name="dateSubmit" type="button" value="送出">
+            <!-- 新增課程 -->
+            <input name="newCourse" type="text" placeholder="輸入新課程名稱">
+            <input name="courseSubmit" type="button" value="送出">
+        </div>
+
+        <table id="courseTable"></table>
+    </body>
+</html>

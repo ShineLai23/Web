@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+canvas {
+    border: 2pxsolidblack;
+    background-image: url(img/ground.jpg);
+}
+
+#talkBox {
+    height: 20px;
+    color: brown;
+    font-size: 26px;
+    font-weight: bold;
+}
